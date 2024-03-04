@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Favorite character</title>
+	</head>
+	<body>
+		<h1>Who is your favorite character ?</h1>
+
+		<form name="vote" action="process-form.php" method="post">
+			First Name
+			<input type="text" name="First">
+			<br>
+			Last Name
+			<input type="text" name="Last">
+			<br>
+			Whos your favorite playable character
+			<select name="Who">
+			<option value="mar">Mario</option>
+			<option value="mal">Mallow</option>
+			<option value="gen">Geno</option>
+			<option value="bow">Bowser</option>
+			<option value="pea">Peach</option>
+			</select>
+			<br>
+			Have you played the game ?
+			<br>
+			<input type="radio" name="nes" value="org"> I have played the original
+			<br>
+			<input type="radio" name="nes" value="org"> I have not played the original
+			<br>
+			<input type="radio" name="yeo" value="rem"> I have played the remaster
+			<br>
+			<input type="radio" name="yeo" value="rem"> I have not played the remaster
+			<br>
+			Now who is your favorite out of every charecter.
+			<br>
+			<textarea name="fav" rows="1" cols="30"></textarea>
+			<br>
+			and why?
+			<br>
+			<textarea name="whe" rows="10" cols="30"></textarea>
+			<br>
+			<input type="submit">
+		</form>
+		
+	</body>
+</html>

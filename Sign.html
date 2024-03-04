@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Changer Sign up</title>
+	</head>
+	<body>
+	
+	<h1>Changer Sign up</h1>
+	<form name="signup" action="process-form.php" method="post">
+		User name:
+		<input type="text" name="username">
+		<br>
+		Password:
+		<input type="password" name="password">
+		<br>
+		Email:
+		<input type="email" name="email">
+		<br>
+		<select name="section">
+			<label for="birth">Birthday:</label>
+			<input type="date" id="birthday" name="birth">
+			<br>
+		Section you want to work on ?
+		<select name="section">
+			<option value="Story">Story</option>
+			<option value="Areas">Areas</option>
+			<option value="Characters">Characters</option>
+			<option value="Items">Items</option>
+			<option value="Attacks">Attacks</option>
+			<option value="Enemys">Enemys</option>
+			<option value="Bosses">Bosses</option>
+			<option value="Extra">Extra</option>
+		</select>
+		<br>
+		Have you played the game ?
+		<br>
+		<input type="checkbox" name="nes" value="no"> I have not played the game
+		<br>
+		<input type="checkbox" name="nes" value="yes/no"> I have only played the original
+		<br>
+		<input type="checkbox" name="nes" value="no/yes"> I have only played the remaster
+		<br>
+		<input type="checkbox" name="nes" value="yes"> I have played both the remaster and original
+		<br>
+    	<input type="submit">
+	</form>
+	<br>
+	<h1>Login</h1>
+
+	<form name="login" action="process-form.php" method="post">
+		User name:
+		<input type="text" name="username">
+		<br>
+		Password:
+		<input type="password" name="password">
+		<br>
+		<input type="submit">
+		
+
+	</form>
+
+
+
+ </body>
+</html> 
